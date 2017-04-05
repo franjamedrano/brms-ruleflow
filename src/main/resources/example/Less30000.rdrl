@@ -1,0 +1,15 @@
+package example;
+
+import java.lang.Number;
+
+rule "Less30000"
+	dialect "mvel"
+	no-loop true
+	ruleflow-group "rf2"
+	when
+		mortgage : Mortgage( salary <= 30000 )
+	then
+		modify( mortgage ) {
+				setInterestRate( 2 )
+		}
+end
