@@ -1,0 +1,28 @@
+
+<form id="2143220586">
+<property name="name" value="RuleProject.ProcessRule-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="mortgage_housePrice" type="InputTextPrimitiveDouble" id="1416306091">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;housePrice (mortgage)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mortgage/housePrice"/>
+<property name="fieldClass" value="double"/>
+</field>
+<field position="1" name="mortgage_interestRate" type="InputTextDouble" id="539986534">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;interestRate (mortgage)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mortgage/interestRate"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="2" name="mortgage_salary" type="InputTextDouble" id="271919441">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;salary (mortgage)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="mortgage/salary"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<dataHolder inputId="" name="#E9E371" type="dataModelerEntry" outId="mortgage" value="example.Mortgage" id="mortgage"/>
+</form>
