@@ -1,17 +1,46 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>exampleGuidedScore</name>
   <baselineScore>0.0</baselineScore>
-  <initialScore>0.0</initialScore>
+  <initialScore>9.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
-  <factName></factName>
-  <fieldName></fieldName>
+  <factName>Mortgage</factName>
+  <fieldName>interestRate</fieldName>
   <reasonCodesAlgorithm></reasonCodesAlgorithm>
   <reasonCodeField></reasonCodeField>
-  <characteristics/>
+  <characteristics>
+    <org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+      <fact>Mortgage</fact>
+      <field>housePrice</field>
+      <baselineScore>0.0</baselineScore>
+      <reasonCode></reasonCode>
+      <attributes>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>0..50000</value>
+          <partialScore>1.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;=..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>50001..100000</value>
+          <partialScore>2.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;=..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>100001</value>
+          <partialScore>3.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+      </attributes>
+      <name></name>
+      <dataType>Double</dataType>
+    </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+  </characteristics>
   <packageName>example</packageName>
   <imports>
     <imports/>
   </imports>
-  <agendaGroup></agendaGroup>
+  <agendaGroup>ag3</agendaGroup>
   <ruleFlowGroup></ruleFlowGroup>
 </org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
