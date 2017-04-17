@@ -10,6 +10,7 @@ rule "Greater30000"
 		mortgage : Mortgage( salary > 30000 )
 	then
 		modify( mortgage ) {
-				setInterestRate( 3 )
+				setInterestRate( 3 ), 
+				setApproved( true )
 		}
 end
