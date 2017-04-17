@@ -3,9 +3,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>jboss-ga-repository</id>
+        <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
@@ -21,22 +21,6 @@
       <metadata>
         <id>jboss-brms-bpmsuite-repository</id>
         <url>file:///home/jperezbo/.m2/jboss-bpmsuite-6.4.0.GA-maven-repository/jboss-brms-bpmsuite-6.4.0.GA-maven-repository/maven-repository/</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>~/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-earlyaccess-plugin-repository</id>
-        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
@@ -67,9 +51,25 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-ga-repository</id>
-        <url>http://maven.repository.redhat.com/techpreview/all</url>
+        <id>jboss-earlyaccess-plugin-repository</id>
+        <url>http://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>~/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
