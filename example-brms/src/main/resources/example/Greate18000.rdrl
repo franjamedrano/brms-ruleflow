@@ -2,7 +2,7 @@ package example;
 
 import java.lang.Number;
 
-rule "Greater30000"
+rule "Greate18000"
 	dialect "mvel"
 	no-loop true
 	agenda-group "ag2"
