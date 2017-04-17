@@ -5,7 +5,6 @@ import java.lang.Number;
 rule "Greater30000"
 	dialect "mvel"
 	no-loop true
-	ruleflow-group "rf2"
 	agenda-group "ag2"
 	when
 		mortgage : Mortgage( salary > 30000 )
