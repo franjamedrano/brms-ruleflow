@@ -7,10 +7,9 @@ rule "Less18000"
 	no-loop true
 	agenda-group "ag2"
 	when
-		mortgage : Mortgage( salary <= 30000 )
-		Mortgage( salary >= 18000 )
+		mortgage : Mortgage( salary <= 18000 )
 	then
 		modify( mortgage ) {
-				setApproved( true )
+				setApproved( false )
 		}
 end
