@@ -5,7 +5,7 @@
   <useReasonCodes>false</useReasonCodes>
   <factName>Mortgage</factName>
   <fieldName>interestRate</fieldName>
-  <reasonCodesAlgorithm></reasonCodesAlgorithm>
+  <reasonCodesAlgorithm>none</reasonCodesAlgorithm>
   <reasonCodeField></reasonCodeField>
   <characteristics>
     <org.drools.workbench.models.guided.scorecard.shared.Characteristic>
