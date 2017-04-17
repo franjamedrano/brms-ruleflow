@@ -11,7 +11,6 @@ rule "Less30000"
 		Mortgage( salary >= 18000 )
 	then
 		modify( mortgage ) {
-				setInterestRate( 4 ), 
 				setApproved( true )
 		}
 end
