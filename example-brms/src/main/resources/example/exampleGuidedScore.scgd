@@ -1,7 +1,7 @@
 <org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
   <name>exampleGuidedScore</name>
   <baselineScore>0.0</baselineScore>
-  <initialScore>9.0</initialScore>
+  <initialScore>1.0</initialScore>
   <useReasonCodes>false</useReasonCodes>
   <factName>Mortgage</factName>
   <fieldName>interestRate</fieldName>
@@ -33,7 +33,41 @@
           <operator>&gt;=</operator>
         </org.drools.workbench.models.guided.scorecard.shared.Attribute>
       </attributes>
-      <name></name>
+      <name>housePriceScore</name>
+      <dataType>Double</dataType>
+    </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+    <org.drools.workbench.models.guided.scorecard.shared.Characteristic>
+      <fact>Mortgage</fact>
+      <field>salary</field>
+      <baselineScore>0.0</baselineScore>
+      <reasonCode></reasonCode>
+      <attributes>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>18000..24000</value>
+          <partialScore>3.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>24000..36000</value>
+          <partialScore>2.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>36000..50000</value>
+          <partialScore>1.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;..&lt;=</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+        <org.drools.workbench.models.guided.scorecard.shared.Attribute>
+          <value>50000</value>
+          <partialScore>-1.0</partialScore>
+          <reasonCode></reasonCode>
+          <operator>&gt;</operator>
+        </org.drools.workbench.models.guided.scorecard.shared.Attribute>
+      </attributes>
+      <name>salaryScore</name>
       <dataType>Double</dataType>
     </org.drools.workbench.models.guided.scorecard.shared.Characteristic>
   </characteristics>
