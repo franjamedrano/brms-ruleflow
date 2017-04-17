@@ -7,10 +7,9 @@ rule "Greater30000"
 	no-loop true
 	agenda-group "ag2"
 	when
-		mortgage : Mortgage( salary > 30000 )
+		mortgage : Mortgage( salary > 18000 )
 	then
 		modify( mortgage ) {
-				setInterestRate( 3 ), 
 				setApproved( true )
 		}
 end
