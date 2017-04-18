@@ -1,2 +1,12 @@
 package example;
 
+rule "testDecisionTree_0"
+	when 
+		Mortgage(approved == false, salary >= 10000.0)
+	then 
+end
+rule "testDecisionTree_1"
+	when 
+		Mortgage(approved == false, salary)
+then 
+end
