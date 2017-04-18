@@ -75,6 +75,6 @@
   <imports>
     <imports/>
   </imports>
-  <agendaGroup>ag3</agendaGroup>
-  <ruleFlowGroup></ruleFlowGroup>
+  <agendaGroup></agendaGroup>
+  <ruleFlowGroup>rf3</ruleFlowGroup>
 </org.drools.workbench.models.guided.scorecard.shared.ScoreCardModel>
