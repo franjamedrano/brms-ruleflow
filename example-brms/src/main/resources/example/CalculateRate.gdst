@@ -31,7 +31,7 @@
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <attribute>agenda-group</attribute>
+      <attribute>ruleflow-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
     </attribute-column52>
@@ -147,7 +147,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ag1</valueString>
+        <valueString>rf1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -188,7 +188,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ag1</valueString>
+        <valueString>rf1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -230,7 +230,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ag1</valueString>
+        <valueString>rf1</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
